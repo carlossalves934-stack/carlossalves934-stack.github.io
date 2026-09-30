@@ -1,24 +1,24 @@
-# 🔗 Meus Links & Portfólio Personalizado
+# 💼 Portfólio — Carlos da Silva
 
-Página pessoal de links e apresentação de projetos desenvolvida com **HTML5** e **CSS3**, criada para centralizar minhas redes profissionais e principais trabalhos de desenvolvimento front-end.
+Portfólio pessoal de desenvolvedor Front-End, desenvolvido com **HTML5** e **CSS3**, para apresentar meus projetos e facilitar o contato de recrutadores.
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-- **HTML5:** Estruturação semântica da página e dos botões.
-- **CSS3:** Estilização personalizada, layout responsivo e efeitos visuais.
+- **HTML5:** Estruturação semântica e acessível.
+- **CSS3:** Layout responsivo com grid e flexbox, variáveis CSS e animações leves.
 - **GitHub Pages:** Hospedagem direta do projeto online.
 
 ---
 
 ## 💻 Projetos em Destaque
 
-- **[Apex Performance - Estética Automotiva](https://carlossalves934-stack.github.io/landing-page-cars/)** - Landing page moderna e responsiva para serviços de estética automotiva.
+- **[Apex Performance - Estética Automotiva](https://carlossalves934-stack.github.io/landing-page-cars/)** - Landing page responsiva com simulador de orçamento integrado ao WhatsApp.
+- **[Catálogo Streaming](https://github.com/carlossalves934-stack/catalogo-streaming)** - Descoberta de filmes disponíveis nos streamings, com a API do TMDB.
 
 ---
 
 ## 🌐 Acesse Online
 
-Você pode visualizar a página em funcionamento através do link:  
-👉 **[Meus Links - Portfólio](https://carlossalves934-stack.github.io/links-page/)**
+👉 **[Portfólio - Carlos da Silva](https://carlossalves934-stack.github.io/links-page/)**

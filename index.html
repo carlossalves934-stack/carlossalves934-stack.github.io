@@ -3,31 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Links - Portfólio</title>
+    <title>Carlos da Silva | Desenvolvedor Front-End</title>
+    <meta name="description" content="Portfólio de Carlos da Silva, desenvolvedor Front-End: interfaces interativas com HTML, CSS e JavaScript.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <main class="container">
-        <!-- Foto de Perfil e Nome -->
-        <header class="perfil">
-            <img src="https://via.placeholder.com/150" alt="Sua Foto" class="avatar">
-            <h1>Carlos da Silva</h1>
-            <p>Desenvolvedor Front-End | Interfaces Interativas (HTML/CSS/JS) & Ferramentas de IA</p>
-        </header>
+    <!-- Menu -->
+    <nav class="nav">
+        <a href="#inicio" class="logo">carlos<span>.</span>dev</a>
+        <div class="nav-links">
+            <a href="#projetos">Projetos</a>
+            <a href="#contato" class="nav-contato">Contato</a>
+        </div>
+    </nav>
 
-        <!-- Lista de Links -->
-        <section class="links">
-            <!-- Links de Redes Sociais -->
-            <a href="https://github.com/carlossalves934-stack" target="_blank" class="link-item">GitHub</a>
-            <a href="https://www.linkedin.com/in/carlos-silva-050a4a212/" target="_blank" class="link-item">LinkedIn</a>
-            <a href="#" class="link-item">Meu Portfólio (Em breve)</a>
-            <!-- Botão do Projeto Apex Performance -->
-            <a href="https://carlossalves934-stack.github.io/landing-page-cars/" target="_blank" class="link-item">
-            Apex Performance - Estética Automotiva
+    <!-- Tela inicial -->
+    <header class="hero" id="inicio">
+        <div class="hero-texto">
+            <span class="status"><span class="status-ponto"></span>Disponível para oportunidades</span>
+
+            <p class="saudacao">Olá, eu sou</p>
+            <h1>Carlos<br>da Silva</h1>
+            <p class="cargo">Desenvolvedor Front-End</p>
+
+            <p class="descricao">Crio interfaces interativas e responsivas com HTML, CSS e JavaScript — e uso ferramentas de IA para entregar mais rápido, com qualidade.</p>
+
+            <div class="botoes">
+                <a href="#projetos" class="btn btn-primario">
+                    Ver projetos
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+            </div>
+
+            <div class="sociais">
+                <a href="https://github.com/carlossalves934-stack" target="_blank" rel="noopener" aria-label="GitHub">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-4.5 1.5-4.5-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/carlos-silva-050a4a212/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>
+                </a>
+                <a href="mailto:carlossalves934@gmail.com" aria-label="E-mail">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="foto-anel">
+                <img src="imagens/foto-perfil1.jpeg" alt="Foto de perfil de Carlos da Silva" class="avatar">
+            </div>
+
+            <div class="card-codigo" aria-hidden="true">
+                <div class="card-bolinhas"><span></span><span></span><span></span></div>
+                <code>
+                    <span class="kw">const</span> carlos = {<br>
+                    &nbsp;&nbsp;foco: <span class="str">"Front-End"</span>,<br>
+                    &nbsp;&nbsp;stack: [<span class="str">"HTML"</span>, <span class="str">"CSS"</span>, <span class="str">"JS"</span>],<br>
+                    &nbsp;&nbsp;usaIA: <span class="bool">true</span><br>
+                    };
+                </code>
+            </div>
+
+            <ul class="tags">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+
+        <a href="#projetos" class="rolar">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+            role para conhecer meu trabalho
+        </a>
+    </header>
+
+    <!-- Projetos -->
+    <section class="secao" id="projetos">
+        <h2>Projetos</h2>
+        <div class="projetos">
+            <a href="https://carlossalves934-stack.github.io/landing-page-cars/" target="_blank" rel="noopener" class="projeto">
+                <span class="projeto-tipo">Landing page</span>
+                <h3>Apex Performance</h3>
+                <p>Estética automotiva</p>
+                <span class="projeto-link">Ver projeto →</span>
             </a>
-        </section>
-    </main>
+            <a href="https://github.com/carlossalves934-stack/catalogo-streaming" target="_blank" rel="noopener" class="projeto">
+                <span class="projeto-tipo">Aplicação web · API</span>
+                <h3>Catálogo Streaming</h3>
+                <p>Descoberta de filmes disponíveis nos streamings, com a API do TMDB</p>
+                <span class="projeto-link">Ver código →</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <footer class="secao contato" id="contato">
+        <h2>Vamos conversar?</h2>
+        <p>Estou disponível para vagas de Desenvolvedor Front-End.</p>
+        <div class="botoes">
+            <a href="https://www.linkedin.com/in/carlos-silva-050a4a212/" target="_blank" rel="noopener" class="btn btn-primario">LinkedIn</a>
+            <a href="https://github.com/carlossalves934-stack" target="_blank" rel="noopener" class="btn btn-secundario">GitHub</a>
+            <a href="https://wa.me/19048850564" target="_blank" rel="noopener" class="btn btn-secundario">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></svg>
+                WhatsApp
+            </a>
+            <a href="mailto:carlossalves934@gmail.com" class="btn btn-secundario">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg>
+                E-mail
+            </a>
+        </div>
+    </footer>
 
 </body>
 </html>
