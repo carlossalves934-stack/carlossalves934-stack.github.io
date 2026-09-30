@@ -15,7 +15,7 @@ Portfólio pessoal de desenvolvedor Front-End, desenvolvido com **HTML5** e **CS
 ## 💻 Projetos em Destaque
 
 - **[Apex Performance - Estética Automotiva](https://carlossalves934-stack.github.io/landing-page-cars/)** - Landing page responsiva com simulador de orçamento integrado ao WhatsApp.
-- **[Catálogo Streaming](https://github.com/carlossalves934-stack/catalogo-streaming)** - Descoberta de filmes disponíveis nos streamings, com a API do TMDB.
+- **[Catálogo Streaming](https://catalogo-streaming-iota.vercel.app/)** - App em Next.js e TypeScript para descobrir filmes disponíveis nos seus streamings, com a API do TMDB.
 
 ---
 
